@@ -6,7 +6,7 @@
 library(xml2)
 library(rvest)
 
-setwd('~/Google Drive/Projects/Codes/R/PurpleAir/')
+setwd('~/Google Drive/Projects/Codes/R/Projects/PurpleAir/')
 
 # ---- Load and parse the HTML website ---- #
 doc.html <- read_html('https://map.purpleair.org/sensorlist')
